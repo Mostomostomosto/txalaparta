@@ -1,0 +1,41 @@
+.table thead {
+    background-color: #C1D9BB;
+    border: none;
+}
+
+.table {
+    font-size: 0.8em;
+    border: none;
+}
+
+.table tr:last-child {
+    border-bottom: 1px solid#d7d7d7;
+}
+
+.table,
+.table thead,
+.table thead tr {
+    border-radius: 6px 6px 0 0;
+}
+
+.table th:first-child {
+    border-radius: 8px 0 0 0;
+}
+
+.table th:last-child {
+    border-radius: 0 8px 0 0;
+}
+
+.nav-tabs a {
+    color: #fff;
+    background-color: #8D8D8D;
+    border: 1px solid #FFFFFF;
+    border-bottom: none;
+    border-right: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.nav-tabs a:hover {
+    color: #000;
+}
+
