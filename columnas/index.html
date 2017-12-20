@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 push-6">
+                <form action="" class="tx-form-grey tx-form">
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" class="tx-required">
+                        </div>
+                        <div class="col-12">
+                            <label for="email">email</label>
+                            <input type="text" id="email" name="email" class="tx-required tx-email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="dni">Dni:</label>
+                            <input type="text" id="dni" name="dni" class="tx-dni">
+                        </div>
+                        <div class="col-12">
+                            <label for="telefono">Teléfono</label>
+                            <input type="text" id="telefono" name="telefono" class="tx-required tx-number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="descripcion">Descripción</label>
+                        </div>
+                        <div class="col-18">
+                            <textarea name="descripcion" id="descripcion" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="required" class="tx-submit">
+                </form>
+            </div>
+            <div class="col-12 push-6">
+                <form action="" class="tx-form-grey tx-form">
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" class="tx-required">
+                        </div>
+                        <div class="col-12">
+                            <label for="email">email</label>
+                            <input type="text" id="email" name="email" class="tx-required tx-email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="dni">Dni:</label>
+                            <input type="text" id="dni" name="dni" class="tx-dni">
+                        </div>
+                        <div class="col-12">
+                            <label for="telefono">Teléfono</label>
+                            <input type="text" id="telefono" name="telefono" class="tx-required tx-number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="descripcion">Descripción</label>
+                        </div>
+                        <div class="col-18">
+                            <textarea name="descripcion" id="descripcion" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="required" class="tx-submit">
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</html>

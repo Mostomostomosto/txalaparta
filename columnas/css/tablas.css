@@ -1,0 +1,45 @@
+body{
+	font-family: verdana, arial, sans-serif;
+	font-size: 16px;
+}
+.cabecera{
+	margin-top:25px;
+	border-top: 1px solid #172715;
+	border-bottom: 1px solid #172715;
+	background-color: #D3E9DA;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.cabecera li{
+	padding-left: 7px;
+}
+.cabecera, .contenido{
+	font-size: 0.665em;
+}
+.cabecera li p, .contenido li p{
+	padding-left: 7px;
+}
+.contenido li p{
+	border-bottom: 1px dotted #172715;
+}
+.contenido li p:last-child{
+	border-bottom: none;
+}
+.contenido{
+	border-bottom: 1px solid #172715;
+}
+.contenido p{
+	line-height: 23px;
+}
+.centered{
+	text-align: center;
+}
+.no-dotted p{
+	border: none!important;
+}
+.check input{
+	margin-top: 17px;
+}
+.pointer{
+	cursor: pointer;
+}
